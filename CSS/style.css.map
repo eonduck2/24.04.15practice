@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","file":"style.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "scss/style.scss",
+    "scss/colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAcA;EAJE,OAKmC;EAJnC,QAIyC;EACzC;;;AAGF;EAfE;EACA;EACA;EACA,gBAJmC;EAOnC,OAWmC;EAVnC,QAU0C;EAC1C,kBCtBY;;ADwBZ;EAdA,OAeqC;EAdrC,QAc2C;EACzC,kBCzBe",
+  "file": "style.css"
+}
