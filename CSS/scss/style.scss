@@ -1,29 +1,18 @@
 @use "colors";
 @use "mixIn";
 
-@mixin flex_basic_layout($direction: column) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-}
-@mixin create_contents_container($width_val, $height_val) {
-  width: $width_val;
-  height: $height_val;
-}
-
 body {
-  @include create_contents_container(100%, 100%);
+  @include mixIn.create_contents_container(100%, 100%);
   overflow-x: hidden;
 }
 
 section {
-  @include flex_basic_layout();
-  @include create_contents_container(100vw, 100vh);
+  @include mixIn.flex_basic_layout();
+  @include mixIn.create_contents_container(100vw, 100vh);
   background-color: colors.$color_black;
   // *.dt_number
   div:first-child {
-    @include create_contents_container(80vw, 80vh);
+    @include mixIn.create_contents_container(80vw, 80vh);
     background-color: colors.$color_light_gray;
   }
 }
