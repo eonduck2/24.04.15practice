@@ -6,7 +6,7 @@ even if, it's gonna take away my focuses i have to do this
 # why this
 there is no other reason, it is what it is. cause i just get the information about SCSS lately, and i got so many interesting with that processing way.
 when the strangers get question like "why you have to do this project ?, why you need to SCSS"
-again it's no other reason
+again it is with no other reason
 
 # what is that i had created that used SCSS
 the first thing is you can't check with the difference that when i get made the application with CSS
