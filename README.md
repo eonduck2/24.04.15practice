@@ -10,7 +10,7 @@ again it is with no other reason
 
 # What i had created that used SCSS
 the first thing is you can't check with the difference that when i get made the application with CSS
-cause, my workspace is just only "Coding", it means that's even not a have to difference with "Browser"
+cause, my workspace is just only "Editor", it means that's even not a have to difference with "Browser"
 i just worked for the "Cleaning Code", and it's gonna be clean and short
 
 # Feedbacks
