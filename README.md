@@ -8,7 +8,7 @@ there is no other reason, it is what it is. cause i just get the information abo
 when the strangers get question like "why you have to do this project ?, why you need to SCSS"
 again it is with no other reason
 
-# what is that i had created that used SCSS
+# what i have created that used SCSS
 the first thing is you can't check with the difference that when i get made the application with CSS
 cause, my workspace is just only "Coding", it means that's even not a have to difference with "Browser"
 i just worked for the "Cleaning Code", and it's gonna be clean and short
