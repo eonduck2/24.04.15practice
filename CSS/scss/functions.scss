@@ -1,0 +1,3 @@
+@function widthAndHeight100($props_val) {
+  @return $props_val * 100;
+}
