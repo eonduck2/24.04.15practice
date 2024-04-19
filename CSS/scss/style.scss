@@ -1,0 +1,176 @@
+@use "colors";
+@use "layout";
+@use "functions";
+@use "fonts";
+
+body {
+  @include layout.create_contents_container(100%, 100%);
+  overflow-x: hidden;
+}
+
+section {
+  @include layout.flex_basic_layout();
+  @include layout.create_contents_container(100vw, 100vh);
+  background-color: colors.$color-black-bg;
+}
+
+.first_section {
+  // *dt_
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *first_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *first_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.second_section {
+  // *dt_character
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *second_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *second_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.third_section {
+  // *dt_string
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *third_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *third_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.fourth_section {
+  // *dt_boolean
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *fourth_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *fourth_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.fifth_section {
+  // *dt_object
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *fifth_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *fifth_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.sixth_section {
+  // *dt_array
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *sixth_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *sixth_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
+
+.seventh_section {
+  // *dt_function
+  div:first-child {
+    @include layout.create_contents_container(30vw, 80vh);
+    @include layout.grid_row_layout(20%);
+    background-color: colors.$color-light-gray-bg;
+
+    // *seventh_section_title
+    div:first-child {
+      @include layout.create_contents_container(80%, 80%);
+      @include layout.flex_basic_layout;
+      hr {
+        width: functions.widthAndHeight100(1%);
+      }
+    }
+
+    // *seventh_section_caption
+    div:nth-child(2) {
+      @include layout.create_contents_container(80%, 60%);
+    }
+  }
+}
